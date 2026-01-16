@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import SocialProof from "@/components/SocialProof";
 import ServicesGrid from "@/components/ServicesGrid";
+import ParallaxSection from "@/components/ParallaxSection";
 import PodcastSection from "@/components/PodcastSection";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <SocialProof />
       <ServicesGrid />
+      <ParallaxSection />
       <PodcastSection />
       <Newsletter />
       <Footer />
