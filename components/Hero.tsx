@@ -59,7 +59,7 @@ export default function Hero() {
                         {/* Main Portrait */}
                         <div className="relative z-10 w-auto h-[500px] lg:h-[750px] aspect-[3/4]">
                             <Image
-                                src="/images/portrait.jpg"
+                                src="/images/hero-new.png"
                                 alt="Juan Martín Ortiz - Retrato profesional estilo corporativo"
                                 fill
                                 className="object-cover object-top drop-shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 ease-out"
