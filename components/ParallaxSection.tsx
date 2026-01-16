@@ -2,10 +2,9 @@ export default function ParallaxSection() {
     return (
         <section className="relative h-[60vh] md:h-[80vh] w-full overflow-hidden flex items-center justify-center">
             <div
-                className="absolute inset-0 bg-fixed bg-center bg-cover bg-no-repeat z-0"
+                className="absolute inset-0 bg-fixed bg-cover bg-no-repeat z-0 bg-[25%_center] md:bg-center"
                 style={{
                     backgroundImage: "url('/images/parallax-speaker.jpg')",
-                    backgroundPosition: "center 30%"
                 }}
             ></div>
             <div className="absolute inset-0 bg-black/40 z-10"></div>
